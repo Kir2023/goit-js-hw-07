@@ -23,7 +23,7 @@ function createGalleryItemsMarkup(items) {
 }
 
 const instance = basicLightbox.create(
-  ` <div class="modal">
+  `
 <img width="1280" height="auto" src="">`,
   {
     onShow: (instance) => {
